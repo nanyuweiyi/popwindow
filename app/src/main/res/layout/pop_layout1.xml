@@ -10,7 +10,8 @@
         android:background="@mipmap/pop_bg"
         android:orientation="vertical"
         android:paddingLeft="20dp"
-        android:paddingTop="25dp">
+        android:paddingTop="25dp"
+        android:paddingBottom="20dp">
 
         <TextView
             android:id="@+id/tvone"

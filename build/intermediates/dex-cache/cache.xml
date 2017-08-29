@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="D:\workspace\CustomPopwindow\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\ddd\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="ded9f8d8fee942ef98f80fd19af798b2ba8c6775">
-        <dex dex="D:\workspace\CustomPopwindow\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_34673abef52e32794893a858bd0a4681ab00fa1b\classes.dex" />
+        sha1="4d884829fb03ee2b94c0dd59f0be288d15562f4f">
+        <dex dex="D:\ddd\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_87b8225efa7d447d756df07d4f54cf2646499738\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\workspace\CustomPopwindow\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\ddd\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\workspace\CustomPopwindow\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_055747108bde950d149d54db96c2ad2306e9efde\classes.dex" />
+        <dex dex="D:\ddd\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0d27f2dbcf059a74cd75bf5f7473e8c64a14f6de\classes.dex" />
     </item>
 
 </items>
