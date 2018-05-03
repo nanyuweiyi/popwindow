@@ -3,7 +3,6 @@ package com.example.custompopwindow;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.AppCompatSeekBar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -11,10 +10,7 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.PopupWindow;
-import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,7 +23,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView mButton1,mButton2,mButton3,mButton4,mButton5,mButton6,mButton7;
     private CustomPopWindow mCustomPopWindow;
     private CustomPopWindow mListPopWindow;
-    private AppCompatSeekBar mAppCompatSeekBar;
     private CustomPopWindow mPopWindow;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,35 +43,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mButton6.setOnClickListener(this);
         mButton7 = (TextView) findViewById(R.id.button7);
         mButton7.setOnClickListener(this);
-
-
-        mAppCompatSeekBar = (AppCompatSeekBar) findViewById(R.id.seek_bar);
-        mAppCompatSeekBar.setMax(100);
-        mAppCompatSeekBar.setProgress(100);
-        mAppCompatSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                float alpha = seekBar.getProgress() * 1.0f / 100 ;
-                if(alpha < 0.2){
-                    alpha = 0.2f;
-                }
-                Window mWindow = getWindow();
-                WindowManager.LayoutParams params = mWindow.getAttributes();
-                params.alpha = alpha;
-                mWindow.setAttributes(params);
-                Log.e("zhouwei","progress:"+progress);
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-
-            }
-        });
     }
 
     @Override
@@ -84,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.button1:
                 showPopBottom();
-                //test();
+//                test();
                 break;
             case R.id.button2:
                 showPopTop();
@@ -94,7 +60,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.button4:
                 showPopListView();
-                //showListView();
                 break;
             case R.id.button5:
                 showPopTopWithDarkBg();

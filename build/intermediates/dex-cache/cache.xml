@@ -3,21 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="D:\ddd\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/Users/admin/.android/build-cache/8bf2efe7671d1873660789df3199f043448fb242/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="4d884829fb03ee2b94c0dd59f0be288d15562f4f">
-        <dex dex="D:\ddd\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_87b8225efa7d447d756df07d4f54cf2646499738\classes.dex" />
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="/Users/admin/Desktop/Android/git/popwindow/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_808ff6ae95d3ae27c8711a9ac627b06486569114/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\ddd\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/admin/Desktop/Android/git/popwindow/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\ddd\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0d27f2dbcf059a74cd75bf5f7473e8c64a14f6de\classes.dex" />
+        <dex dex="/Users/admin/Desktop/Android/git/popwindow/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_314c031f0a7ebeb4db6899cbd217474ca09e5757/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha7/constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="/Users/admin/Desktop/Android/git/popwindow/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha7_fbd53dfb26f3489826e0b292f3a4cf96abc7132c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Desktop/Android/git/popwindow/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="edfa4ebf1001f27a2349b67416853c550106fd99">
+        <dex dex="/Users/admin/Desktop/Android/git/popwindow/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_619b88d92855458ba528d739a706f3cf99f93a7e/classes.dex" />
     </item>
 
 </items>
